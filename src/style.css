@@ -1,5 +1,16 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(
+    179.1deg,
+    rgb(247, 238, 238) -1.9%,
+    rgb(247, 202, 201) 44.9%,
+    rgb(145, 168, 208) 96.1%
+  );
 }
 
 h1 {
@@ -33,6 +44,7 @@ li::first-letter {
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 5px;
+  background-color: white;
 }
 .overview {
   margin-bottom: 20px;
@@ -80,4 +92,12 @@ li::first-letter {
 
 .weather-forecast-temperature {
   font-size: 13px;
+}
+button,
+.btn-primary {
+  color: white;
+  background: rgb(247, 202, 201);
+  padding: 5px 10px;
+  border: 1px solid white;
+  border-radius: 5px;
 }
