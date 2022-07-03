@@ -101,3 +101,7 @@ button,
   border: 1px solid white;
   border-radius: 5px;
 }
+
+button:hover {
+  background: rgb(78, 78, 244);
+}
