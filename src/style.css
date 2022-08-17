@@ -88,11 +88,17 @@ li::first-letter {
 .weather-forecast-temperature {
   font-size: 13px;
 }
+.col-7 {
+  padding: 5px;
+}
+.col-auto {
+  padding: 5px 0;
+}
 button,
 .btn-primary {
   color: white;
   background: rgb(208, 167, 166);
-  padding: 5px 10px;
+  padding: 5px 5px;
   border: 1px solid white;
   border-radius: 5px;
 }
